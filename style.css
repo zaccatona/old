@@ -1,0 +1,64 @@
+#logo {
+	width: 50px;
+}
+
+#nome{
+	height: 200px;
+	width: auto;
+	display: block;
+  	margin:0 auto;
+  	opacity: 0.6;
+}
+
+#butt{
+	width.box: 5px !important;
+	position: absolute;
+	
+}
+
+.date {
+	border-left: 5px solid;
+	border-right: 5px solid;
+}
+
+h1 {
+	text-align: center;
+	color: #CC0000;
+	font-family: Francois;
+	font-size: 20px !important;
+	border-top: 10px !important;
+	margin-top: 2px !important;
+}
+
+body {
+	scroll-behavior: smooth;
+}
+
+.artist{
+	width: 200px !important;
+	height: 150px !important;
+	border-radius: 20px;
+	border: 2px solid;
+	border-color: black;
+	text-align: center;
+
+}
+
+.artist:hover{
+	opacity: 0.6;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+video {
+	max-width: 50px;
+}
