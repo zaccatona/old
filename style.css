@@ -1,52 +1,27 @@
 #logo {
 	width: 50px;
 }
-
 #nome{
 	height: 200px;
 	width: auto;
 	display: block;
-  	margin:0 auto;
-  	opacity: 0.6;
+  	margin: 0 auto;
+  	position: relative;
+  	top: 100px;
+  	opacity: 0.9;
+  	background-color: multiply;
+  	border: 5px solid;
 }
-
 #butt{
-	width.box: 5px !important;
+	margin: 0px;
+	width.box: 10px !important;
 	position: absolute;
-	
+	background-color: #f70505 !important;
+	border-radius: 10px;
 }
 
-.date {
-	border-left: 5px solid;
-	border-right: 5px solid;
-}
-
-h1 {
-	text-align: center;
-	color: #CC0000;
-	font-family: Francois;
-	font-size: 20px !important;
-	border-top: 10px !important;
-	margin-top: 2px !important;
-}
-
-body {
-	scroll-behavior: smooth;
-}
-
-.artist{
-	width: 200px !important;
-	height: 150px !important;
-	border-radius: 20px;
-	border: 2px solid;
-	border-color: black;
-	text-align: center;
-
-}
-
-.artist:hover{
-	opacity: 0.6;
-}
+Bordeaux #851b1b
+Chiaro #f70505
 
 #video {
   position: absolute;
@@ -59,6 +34,82 @@ body {
   z-index: -1;
 }
 
+#sfondo{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.9;
+  min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 120%;
+}
+#p1{
+	position: fixed;
+	top: 300px;
+	font-weight: bold;
+	left: 500px;
+
+}
+#date{
+	position: relative;
+  	top: 250px;
+}
+
+#griglia{
+	position: relative;
+  	top: 500px;
+}
+
+.bordi {
+	border-left: 5px solid;
+	border-right: 5px solid;
+}
+
+.artist{
+	width: 300px !important;
+	height: 300px !important;
+	border-radius: 20px;
+	border: 2px solid;
+	border-color: black;
+	text-align: center;
+	z-index: -1;
+}
+
+.artist:hover{
+	opacity: 0.6;
+}
+
+
+#cards {
+    margin-bottom: 40px;
+    top: 800px;
+    position: relative;
+
+ }
+
+.card1{
+	
+}
+
+h2,h3 {
+	text-align: center;
+	font-family: Orbitron;
+	font-weight: bold;
+}
+
+div{
+	/*border: 2px solid !important; */
+	border-color: black;
+}
+
 video {
 	max-width: 50px;
+}
+
+body{
+	background-color: red !important;
+}
+
+a{
+	background-color: #f70505 !important;
 }
