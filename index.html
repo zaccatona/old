@@ -1,12 +1,14 @@
 <!doctype html>
+
 <html>
 
 <head>
+
 	<title>Feel the IMPULSE</title>
 
 	<meta charset="utf-8">
 	<!-- OCCHIO --><meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
 	
 	<!-- LINK A FONTAWESOME--> <script src="https://kit.fontawesome.com/38721abd6a.js" crossorigin="anonymous"></script>
 	
@@ -36,8 +38,10 @@
 
 <header>
 
-	<div id="butt" class="dropdown">
-		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+	<img id="sfondo" src="img/fest1.jpg">
+
+	<div class="dropdown">
+		<button id="butt" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
     		<img id="logo" src="img/energy.png">
   		</button>
   			<div class="dropdown-menu">
@@ -49,42 +53,147 @@
   			</div>
 	</div>
 
+	<img id="nome" src="img/imp.jpeg">
+
 </header>
-<br><br><br>
+
 <main>
 
-	<img id="nome" src="img/IMPULSE.jpeg">
-<br><br><br><br><br><br>
+  <div id="p1">
+    <h3>Il festival a modo tuo</h3>
+  </div>
+
+	<div id="date" class="container">
+		  	<div class="row">
+		    	<div class="col-4"><center><h2>24 giugno 2022</h2></center></div>
+		    	<div class="col-4"><center class="bordi"><h2>25 giugno 2022</h2></center></div>
+		    	<div class="col-4"><center><h2>26 giugno 2022</h2></center></div>
+		 	</div>
+	</div>
+
+<!--
 	<div>
 		<video autoplay muted loop id="video">
-	  	<source src="rand.mp4" type="video/mp4">
+	  	<source src="img/fest2.mp4" type="video/mp4">
 		</video>
 	</div>
+-->
 
-	<div class="container">
+	<!--<div id="griglia" class="container">
   		<div class="row">
-    		<div class="col-4"><center>data1 </center></div>
-    		<div class="col-4"><center class="date">data2 </center></div>
-    		<div class="col-4"><center>data3</center></div>
- 		</div>
-	</div>
-
-<br><br><br><br><br>
-
-	<div class="container">
-  		<div class="row">
-    		<div class="col-4"> <center> <img class="artist" src="img/blanco.png"> </center> </div>
-    		<div class="col-4"> <center> <img class="artist" src="img/capa.jpg"> </center> </div>
-    		<div class="col-4"> <center> <img class="artist" src="img/gue.jpeg"> </center> </div>
+    		<div class="col-4"><center><img class="artist" src="img/cremo.jpg"><p>SHOW MORE</p></center></div>
+    		<div class="col-4"><center><img class="artist" src="img/capa.jpg"><p>SHOW MORE</p></center></div>
+    		<div class="col-4"><center><img class="artist" src="img/gue.jpeg"><p>SHOW MORE</p></center></div>
   		</div>
   		<div class="row">
-    		<div class="col-4"> <center> <img class="artist" src="img/madame.png"> </center> </div>
-    		<div class="col-4"> <center> <img class="artist" src="img/mam.jpg"> </center> </div>
-    		<div class="col-4"> <center> <img class="artist" src="img/marra.jpg"> </center> </div>
+    		<div class="col-4"><center><img class="artist" src="img/madame.png"><p>SHOW MORE</p></center></div>
+    		<div class="col-4"><center><img class="artist" src="img/mam.jpg"><p>SHOW MORE</p></center></div>
+    		<div class="col-4"><center><img class="artist" src="img/marra.jpg"><p>SHOW MORE</p></center></div>
   		</div>
 	</div>
+-->
+
+<div id="cards" class="container-fluid">
+          <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="col">
+              <div class="card1">
+                <img src="img/cremo.jpg" class="card-img-top" alt="Cremonini">
+                  <div class="card-body">
+                    <h5 class="card-title">Description</h5>
+                    <p class="card-text">Date and place</p>
+                  </div>
+              </div>
+            </div>
+                <div class="col">
+                  <div class="card1">
+                    <img src="img/marra.jpg" class="card-img-top" alt="Marracash">
+                      <div class="card-body">
+                        <h5 class="card-title">Description</h5>
+                        <p class="card-text">Date and place</p>
+                      </div>
+                  </div>
+                </div>
+                  <div class="col">
+                    <div class="card1">
+                      <img src="img/ff.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Description</h5>
+                          <p class="card-text">Date and place</p>
+                        </div>
+                    </div>
+                  </div>
+                    <div class="col">
+                      <div class="card1">
+                        <img src="img/amo.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Description</h5>
+                            <p class="card-text">Date and place</p>
+                          </div>
+                      </div>
+                    </div>
+                      <div class="col">
+                        <div class="card1">
+                          <img src="img/fede.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Description</h5>
+                              <p class="card-text">Date and place</p>
+                            </div>
+                        </div>
+                      </div>
+          </div>
+
+  <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="col">
+              <div class="card1">
+                <img src="img/j.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Description</h5>
+                    <p class="card-text">Date and place</p>
+                  </div>
+              </div>
+            </div>
+                <div class="col">
+                  <div class="card1">
+                    <img src="img/elo.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Description</h5>
+                        <p class="card-text">Date and place</p>
+                      </div>
+                  </div>
+                </div>
+                  <div class="col">
+                    <div class="card1">
+                      <img src="img/jova.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Description</h5>
+                          <p class="card-text">Date and place</p>
+                        </div>
+                    </div>
+                  </div>
+                    <div class="col">
+                      <div class="card1">
+                        <img src="img/eli.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Description</h5>
+                            <p class="card-text">Date and place</p>
+                          </div>
+                      </div>
+                    </div>
+                      <div class="col">
+                        <div class="card1">
+                          <img src="img/ferro.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Description</h5>
+                              <p class="card-text">Date and place</p>
+                            </div>
+                        </div>
+                      </div>
+  </div>
+
+</div>
 
 </main>
 
 </body>
+
 </html>
