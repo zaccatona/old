@@ -1,0 +1,55 @@
+body{
+	background-color: #6b1818;
+}
+
+main{
+	border: 7px solid;
+	border-color: white;
+}
+
+#logo {
+	width: 40px;
+
+}
+
+#dropdownMenuButton1{
+  background-color: #f70505;
+}
+
+/*NAV alto*/
+.navbar {
+  position: fixed !important;
+  background-color: #333;
+  width: 100%;
+  z-index: 4;
+  opacity: 0.9;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #f70505 !important;
+  border-radius: 5px;
+}
+
+/*drop alto*/
+
+.dropdown-menu{
+  z-index: 10; 
+  background-color: black !important;
+}
+
+
+.dropdown {
+  float: left;
+  z-index: 10;
+  background-color: black !important;
+}
+
+.dropdown-item{
+  background-color: black !important;
+}
